@@ -78,7 +78,7 @@ jobs:
       - name: List directories
         run: |
           echo "List of directories:"
-          ls -d ./out/*/
+          ls -d
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
