@@ -18,7 +18,7 @@ export default function Card({ imgURL, priceNormal, priceHolofoil, priceReverseH
     return (
         <div className="px-2 py-5">
             <Image
-                src={imageError ? '/card404.png' : imgURL}
+                src={imageError ? './card404.png' : imgURL}
                 alt="Pokemon Image"
                 width={0}
                 height={0}
