@@ -2,8 +2,9 @@
 const nextConfig = () => {
     return {
         output: 'export',
-        reactStrictMode: true,
+        basePath: "/pokemon",
         images: {
+            unoptimized: true,
             remotePatterns: [
                 {
                     protocol: 'https',
