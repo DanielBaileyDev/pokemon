@@ -248,7 +248,7 @@ export default function Home() {
         </div>
 
         <div className="flex justify-center lg:ml-4">
-          <label className='self-center pr-2' htmlFor="dropdown">Sort By:</label>
+          <label className='self-center pr-2 dark:text-white' htmlFor="dropdown">Sort By:</label>
           <select id="dropdown" className='rounded-lg border border-gray-300 py-2 px-3 outline-0 focus:border-gray-400'
             onChange={(e) => {
               changeSortBy(e.target.value);
