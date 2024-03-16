@@ -219,7 +219,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center px-3 py-3 sm:px-12 sm:py-12 lg:px-24">
-      <div className="flex flex-col flex-wrap max-w-7xl lg:flex-row lg:justify-center">
+      <div className="flex flex-col flex-wrap max-w-7xl lg:flex-row lg:justify-center text-black">
         <div className="flex mb-2 lg:mb-0">
           <div>
             <label htmlFor="search" className="sr-only">
